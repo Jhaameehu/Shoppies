@@ -1,0 +1,101 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 50%
+    /* padding-top: 20px; */
+
+}
+
+.main, .sidebar {
+    /* border: 1px solid coral; */
+    padding: 15px;
+}
+
+.main {
+    width: 90%;
+    height: 50%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px 0;
+
+}
+
+.card {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin: 10px 0; */
+    
+}
+
+.sidebar {
+    width: 25%;
+    height: 100%;
+    
+}
+
+img {
+    width: 200px;
+}
+
+
+.searchContainer {
+    /* display: flex; */
+    padding-bottom: 50px;
+    /* justify-content: center; */
+
+
+}
+
+.searchField {
+    position: relative;
+    display: block;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    height: 35px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color: rgb(220, 221, 221);
+    /* background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+    background-position: 2px 3px; */
+}
+input[type='text'] {
+    font-size: 16px;
+  font-family: 'Roboto',
+  san serif;
+
+}
+.control input{
+    margin-bottom: 50px;
+}
+
+.inputImg {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 30px;
+    /* padding-left: 40px; */
+}
+
+.nominateButton {
+    background-color: #041522e7;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.nominateButton:hover {
+    background-color: #041420;
+}
+
+.row{
+    width: 90%;
+    display: block;
+    object-fit: contain;
+}

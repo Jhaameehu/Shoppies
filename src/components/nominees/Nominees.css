@@ -1,0 +1,30 @@
+.delete {
+    background-color: rgb(235, 110, 110);
+    color: rgb(255, 255, 255);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 10px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.delete:hover{
+    background-color: rgb(87, 20, 20);
+}
+
+.movieTitle {
+    /* margin-left: 5px; */
+}
+
+.notification {
+    /* background: #1e203b10; */
+    margin-top: 10px;
+    /* text-align: center; */
+    /* width: 300px; */
+}
+
+.column {
+    margin-bottom: 20px;
+    
+}
